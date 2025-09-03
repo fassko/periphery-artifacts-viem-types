@@ -1,0 +1,22 @@
+{
+  "name": "periphery-artifacts-viem-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "wagmi:generate": "wagmi generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@flarenetwork/flare-periphery-contract-artifacts": "^0.1.36",
+    "wagmi": "^2.16.3",
+    "@types/node": "^24.2.1",
+    "@wagmi/cli": "^2.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
