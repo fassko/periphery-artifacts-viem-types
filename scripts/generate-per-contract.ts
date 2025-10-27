@@ -2,11 +2,6 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
 import { join } from 'path'
 import { execSync } from 'child_process'
 
-interface Contract {
-  name: string
-  abi: any[]
-}
-
 // Function to get all contract artifacts (same as in wagmi.config.ts)
 interface ContractWithNetwork {
   name: string
