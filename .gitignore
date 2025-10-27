@@ -48,3 +48,7 @@ coverage/
 
 # nyc test coverage
 .nyc_output
+
+/contracts
+
+temp-wagmi.config.ts

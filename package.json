@@ -5,7 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "wagmi:generate": "wagmi generate"
+    "wagmi:generate": "wagmi generate",
+    "generate": "ts-node scripts/generate-per-contract.ts",
+    "build": "tsc",
+    "prebuild": "rm -rf dist"
   },
   "keywords": [],
   "author": "",
